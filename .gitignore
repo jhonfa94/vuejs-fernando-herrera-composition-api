@@ -23,3 +23,8 @@ dist-ssr
 *.sw?
 
 
+# Ignorar todas las carpetas node_modules en el proyecto
+**/node_modules/
+**/dist/
+
+
