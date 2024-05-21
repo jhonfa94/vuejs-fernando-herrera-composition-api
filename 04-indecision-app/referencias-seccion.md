@@ -19,3 +19,10 @@ Api: https://yesno.wtf/#api
 https://vuejs.org/api/sfc-script-setup.html#defineprops-defineemits
 
 Código fuente de la sección: https://github.com/DevTalles-corp/vue-indecision/tree/fin-seccion-5
+
+Test: https://vitest.dev/
+
+Puebas en componentes vuejs: https://test-utils.vuejs.org/guide/
+}
+
+tsconfig.vitest.json: https://gist.github.com/Klerith/e7a9d974030dc3d3240bfd80155d3e8d
