@@ -8,13 +8,13 @@ export default defineComponent({
   },
   setup(props) {
     // const counter = ref(props.value);
-    // const squareCompute = computed(() => counter.value * counter.value);
+    // const squareCounter = computed(() => counter.value * counter.value);
 
-    const { counter, squareCompute } = useCounter(props.value);
+    const { counter, squareCounter } = useCounter(props.value);
 
     return {
       counter,
-      squareCompute
+      squareCounter
     };
   }
 });

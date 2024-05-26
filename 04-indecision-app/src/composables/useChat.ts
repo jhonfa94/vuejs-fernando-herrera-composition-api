@@ -5,23 +5,23 @@ import { sleep } from '@/helpers/sleep';
 
 export const useChat = () => {
   const messages = ref<ChatMessage[]>([
-    {
-      id: new Date().getTime(),
-      message: 'Hola mundo!!',
-      itsMine: true
-    },
-    {
-      id: new Date().getTime() + 1,
-      message: 'No!!',
-      itsMine: false,
-      image: 'https://yesno.wtf/assets/no/7-331da2464250a1459cd7d41715e1f67d.gif'
-    },
-    {
-      id: new Date().getTime() + 1,
-      message: '¿Quieres ir a tomar cafe?',
-      itsMine: false,
-      image: 'https://yesno.wtf/assets/no/30-d37eee83c3c2180de4edb7da6fa9f5b7.gif'
-    }
+    // {
+    //   id: new Date().getTime(),
+    //   message: 'Hola mundo!!',
+    //   itsMine: true
+    // },
+    // {
+    //   id: new Date().getTime() + 1,
+    //   message: 'No!!',
+    //   itsMine: false,
+    //   image: 'https://yesno.wtf/assets/no/7-331da2464250a1459cd7d41715e1f67d.gif'
+    // },
+    // {
+    //   id: new Date().getTime() + 1,
+    //   message: '¿Quieres ir a tomar cafe?',
+    //   itsMine: false,
+    //   image: 'https://yesno.wtf/assets/no/30-d37eee83c3c2180de4edb7da6fa9f5b7.gif'
+    // }
   ]);
 
   const getHerResponse = async () => {
