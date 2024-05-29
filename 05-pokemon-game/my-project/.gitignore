@@ -1,3 +1,4 @@
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -10,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
- 
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -21,11 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-
-# Ignorar todas las carpetas node_modules en el proyecto
-**/node_modules/
-**/dist/
-**/coverage/
-
-
